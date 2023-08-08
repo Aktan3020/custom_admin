@@ -1,0 +1,46 @@
+$accent:#007E85;
+$black:#000;
+$white:#fff;
+.adminSideBar{
+    .logo{
+        width: 60%;
+        height: 70px;
+        margin: 70px auto;
+        img{
+            width: 100%;
+            height: 100%;
+        object-fit: cover;
+
+        }
+    }
+    
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      align-items: center;
+      list-style: none;
+      }
+      a{
+        width: 43%;
+
+      }
+        li{
+            width: 100%;
+            margin-bottom: 40px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all linear 0.3s;
+            border-radius: 5px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        &:hover{
+            background: rgba(255, 255, 255, 0.4);
+
+        }
+        }
+    }
